@@ -7,6 +7,12 @@
     <title>Helen's Website</title>
     <link rel = "stylesheet" href = "Website.CSS"/>
     <script defer src = "Website.JS"> </script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
 </head>
 <body>
     <!--navigation bar--> 
@@ -25,10 +31,7 @@
                     <a href = "#games" class = "navbar__links" id = "games-page">Games</a>
                 </li>
                 <li class = "navbar__item"> 
-                     <a href = "#Favorites" class = "navbar__links" id = "favorites-page">Favorites</a>
-                </li>
-                <li class = "navbar__item"> 
-                    <a href = "#FAQ" class = "navbar__links" id = "FAQ-page">FAQ</a>
+                    <a href = "#about" class = "navbar__links" id = "about-page">About</a>
                 </li>
                 <li class = "navbar__item"> 
                     <a href = "#signup" class = "navbar__links" id = "signup">Sign Up</a>
@@ -36,6 +39,7 @@
             </ul>
         </div>
     </nav>
+    <!--main section-->
     <div class = "main" id = "home"> 
         <div class = "main__container"> 
             <h1 class = "main__heading"> 
@@ -49,5 +53,110 @@
             </button>
         </div>
     </div>
+    <!--games section-->
+    <div class = "games" id = "games"> 
+        <h1> 
+            Games 
+        </h1>
+        <div class = "games__wrapper"> 
+            <div class = "games__card"> 
+                <h2> Guess the Number </h2>
+                <p> Guess any number between 1-100! Use the process of elimination to help. </p>
+                <div class = "games__btn"> 
+                    <button> 
+                        <a href = "Guess.HTML"> Let's Play! </a> 
+                    </button>
+                </div>    
+            </div>
+            <div class = "games__card"> 
+                <h2> Rock, Paper, Scissors </h2>
+                <p> Compete against the AI in a classic game! May the best player win. </p>
+                <div class = "games__btn"> 
+                    <button> 
+                        Let's Play! 
+                    </button>
+                </div>    
+            </div>
+            <div class = "games__card"> 
+                <h2> Hangman </h2>
+                <p> Guess letters to try and figure out what word the AI is thinking of! Be careful...pick wisely. </p>
+                <div class = "games__btn"> 
+                    <button> 
+                        Let's Play! 
+                    </button>
+                </div>    
+            </div>
+            <div class = "games__card"> 
+                <h2> Tic-Tac-Toe </h2>
+                <p> Play against the computer in a heated match of an all-time favorite! Good luck. </p>
+                <div class = "games__btn"> 
+                    <button> 
+                        Let's Play! 
+                    </button>
+                </div>    
+            </div>
+        </div> 
+    </div>
+<!--About Section-->
+<div> </div>
+<!--Footer Section-->
+<div class = "footer__container"> 
+    <div class = "footer__links">
+        <div class = "footer__link--wrapper"> 
+            <div class = "footer__link--items"> 
+                <h2> About Me</h2> 
+                <a href = "/"> Background</a>
+                <a href = "/"> Education </a>
+                <a href = "/"> Hobbies </a>
+                <a href = "/"> Mission Statement </a>
+            </div>
+            <div class = "footer__link--items"> 
+                <h2> Contact Me </h2> 
+                <a href = "/"> Email </a>
+                <a href = "/"> Support </a>
+            </div>
+        </div>
+        <div class = "footer__link--wrapper"> 
+            <div class = "footer__link--items"> 
+                <h2> Videos </h2> 
+                <a href = "/"> Favorite Youtube Music Video </a>
+                <a href = "/"> Helen as a Kid  </a>
+                <a href = "/"> How to do a Rubik's Cube </a>
+            </div>
+            <div class = "footer__link--items"> 
+                <h2> Social Media </h2> 
+                <a href = "/"> Instagram </a>
+                <a href = "/"> Twitter </a>
+            </div>
+        </div>
+    </div>
+<!-- Social Media Bar Section-->
+    <section class = "social__media"> 
+        <div class = "social__media--wrap"> 
+            <div class = "footer__logo"> 
+                <a href = "/" id = "footer__logo"> Helen </a>
+            </div>
+            <p class = "website__rights"> © HELEN 2021. All rights reserved. </p>
+            <div class = "social__icons"> 
+                <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            </div>
+        </div>
+    </section>
+
+</div>
 </body>
 </html>
